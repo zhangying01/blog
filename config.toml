@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "云的博客"
+title = "云博客"
 
 theme = "hugo-coder"
 
