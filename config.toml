@@ -18,9 +18,9 @@ disqusShortname = "yourdiscussshortname"
     author = "🌈云☁️"
     description = "Cloud's personal website"
     keywords = "blog,developer,personal"
-    info = "Coder"
+    info = "Coder lover & Guitar lover"
     avatarURL = "images/avatar.jpeg"
-    #gravatar = "john.doe@example.com"
+    #gravatar = "https://twitter.com/KR14YSSJxehtHv8"
 
     dateFormat = "January 2, 2006"
 
