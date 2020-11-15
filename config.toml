@@ -9,13 +9,13 @@ defaultContentLanguage = "en"
 paginate = 20
 
 pygmentsStyle = "b2"
-pygmentsCodeFences = true
+pygmentsCodeFences =     true
 pygmentsCodeFencesGuessSyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "云☁️"
+    author = "🌈云☁️"
     description = "Cloud's personal website"
     keywords = "blog,developer,personal"
     info = "Coder"
