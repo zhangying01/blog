@@ -108,6 +108,7 @@ disqusShortname = "yourdiscussshortname"
             name = "关于"
             weight = 2
             url = "about/"
+            
 
             [[languages.en.menu.main]]
             name = "项目"
