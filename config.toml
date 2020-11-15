@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     description = "Cloud's personal website"
     keywords = "blog,developer,personal"
     info = "Coder"
-    avatarURL = "images/avatar.jpg"
+    avatarURL = "images/avatar.jpeg"
     #gravatar = "john.doe@example.com"
 
     dateFormat = "January 2, 2006"
@@ -115,6 +115,6 @@ disqusShortname = "yourdiscussshortname"
             url = "projects/"
 
             [[languages.en.menu.main]]
-            name = "我"
+            name = "联系我"
             weight = 5
             url = "contact/"
