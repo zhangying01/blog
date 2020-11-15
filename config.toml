@@ -21,7 +21,6 @@ disqusShortname = "yourdiscussshortname"
     info = "Coder"
     avatarURL = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footerContent = "Enter a text here."
 
     dateFormat = "January 2, 2006"
 
