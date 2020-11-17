@@ -108,6 +108,10 @@ disqusShortname = "yourdiscussshortname"
             weight = 2
             url = "about/"
             
+             [[languages.en.menu.main]]
+            name = "Go语言专栏"
+            weight = 5
+            url = "posts/go/"
 
             [[languages.en.menu.main]]
             name = "项目"
@@ -116,5 +120,5 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.en.menu.main]]
             name = "联系我"
-            weight = 5
+            weight = 6
             url = "contact/"
