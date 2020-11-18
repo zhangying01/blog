@@ -14,7 +14,7 @@ series = ["book", "jvm"]
 
 ### JVM运行时数据区域
 
-<img src="http://106.53.240.171/images/jvm/JVM-Memory.png" alt="jvm" style="zoom: 80%;" />
+![jvm](http://106.53.240.171/images/jvm/JVM-Memory.png)
 
 ### 说明
 
