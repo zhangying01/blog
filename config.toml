@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://gopher-cn.icu"
 title = "云的博客"
 
 theme = "hugo-coder"
@@ -18,18 +18,18 @@ disqusShortname = "yourdiscussshortname"
     author = "🌈云☁️"
     description = "Cloud's personal website"
     keywords = "blog,developer,personal"
-    info = "Coder lover & Guitar lover"
+    info = "Code lover & Guitar lover"
     avatarURL = "images/avatar.jpeg"
-    
+
     dateFormat = "January 2, 2006"
 
-    hideFooter = false
+    hideFooter = true
     hideCredits = false
-    hideCopyright = false
+    hideCopyright = true
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/yunteng9345/hugo-coder/tree/"
+    commit = "https://github.com/yunteng9345/blog/tree/"
 
     rtl = false
 
