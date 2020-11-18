@@ -1,6 +1,6 @@
 +++
-title = "Contact"
+title = "一起交流技术吧！"
 slug = "contact"
 +++
 
-Follow me,
+![wxicon](http://106.53.240.171/images/wx.jpg)
