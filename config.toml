@@ -20,8 +20,7 @@ disqusShortname = "yourdiscussshortname"
     keywords = "blog,developer,personal"
     info = "Coder lover & Guitar lover"
     avatarURL = "images/avatar.jpeg"
-    #gravatar = "https://twitter.com/KR14YSSJxehtHv8"
-
+    
     dateFormat = "January 2, 2006"
 
     hideFooter = false
