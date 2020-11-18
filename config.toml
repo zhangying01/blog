@@ -20,7 +20,7 @@ disqusShortname = "yourdiscussshortname"
     keywords = "blog,developer,personal"
     info = "Coder lover & Guitar lover"
     avatarURL = "images/avatar.jpeg"
-    
+
     dateFormat = "January 2, 2006"
 
     hideFooter = false
