@@ -30,15 +30,81 @@ series = ["book", "jvm"]
 
 ### Stack Area
 
-虚拟机栈，线程私有，生命周期与线程相同。**每个方法被执行的时候，jvm都会同步创建一个栈帧（Stack Frame）用于存储局部变量表、操作数栈、动态连接、方法出口等信息**，每个方法被调用直至完成，就对应一个栈帧从入栈到出栈的过程。
+虚拟机栈，线程私有，生命周期与线程相同。**每个方法被执行的时候，jvm都会同步创建一个栈帧（Stack Frame）用于存储局部变量表、操作数栈、动态连接、方法出口等信息**，每个方法被调用直至完成，就对应一个栈帧从入栈到出栈的过程。更多情况下只是指虚拟机栈中的局部变量表部分。局部变量表存放了编译期可知的各种Java虚拟机 基本数据类型（boolean、byte、char、short、int、float、long、double)、对象引用（reference类型，它并不等同于对象本身）
 
-虚拟机栈，更多情况下只是指虚拟机栈中的局部变量表部分。局部变量表存放了编译期可知的各种Java虚拟机 基本数据类型（boolean、byte、char、short、int、float、long、double)、对象引用（reference类型，它并不等同于对象本身
+### Native Method Area
+
+本地方法栈，与虚拟机发挥的作用非常相似，区别：VM Stacks执行Java方法，Native Method Stacks执行本地方法，如：c、cpp等。
+
+> 有的虚拟机直接把本地方法栈和虚拟机栈合二为一使用，如Hot-Spot虚拟机
 
 
 
+栈溢出的场景（StackOverflowError）代码
+
+```java
+
+public class TestDemo {
+
+    private int index = 1;
+
+    public void method() {
+        index++;
+        method();
+    }
+
+    @Test
+    public void testStackOverflowError() {
+        try {
+            method();
+        } catch (StackOverflowError e) {
+            System.out.println("程序所需要的栈大小 > 允许最大的栈大小，执行深度: " + index);
+            e.printStackTrace();
+        }
+    }
+}
+
+java.lang.StackOverflowError
+	at com.collection.map.MapDemo.method(MapDemo.java:29)
+	at com.collection.map.MapDemo.method(MapDemo.java:29)
+	at com.collection.map.MapDemo.method(MapDemo.java:29)
+	at com.collection.map.MapDemo.method(MapDemo.java:29)
+	at com.collection.map.MapDemo.method(MapDemo.java:29)
+
+```
+当栈内存超过系统配置的栈内存-Xss:2048（*为jvm启动的每个线程分配的内存大小*），就会出现java.lang.StackOverflowError异常。这也是为什么对于需要谨慎使用递归调用的原因！
 
 
 
+堆栈溢出的场景（OutOfMemoryError）代码
+
+```java
+public class Heap {
+
+public static void main(String[] args) {
+    ArrayList list = new ArrayList();
+    while (true) {
+        list.add(new Heap());
+    }
+  }
+}
+
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3210)
+	at java.util.Arrays.copyOf(Arrays.java:3181)
+	at java.util.ArrayList.grow(ArrayList.java:261)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:235)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:227)
+	at java.util.ArrayList.add(ArrayList.java:458)
+
+```
+List是动态增长的，因此容量不够了，就会扩容，一旦空闲内存分配完毕，请求不到其他内存，就抛出OutOfMemoryError。
+
+
+
+### Heap
+
+堆，是虚拟机管理内存中最大的一块，被所有线程共享，在虚拟机启动时创建。此内存的唯一目的是存放对象。
 
 
 
