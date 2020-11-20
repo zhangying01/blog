@@ -1,17 +1,20 @@
-# 云的博客
+# 这一天天的
 
 1. 泡枸杞
 2. 写代码
 3. 写文章
-## 在线阅读
+## 我的技术博客
 
 - http://gopher-cn.icu
 
-## 我的公众号
+## 我的微信
 
-![image]()
-
-## ？
+<div align="left">
+<img src="http://www.gopher-cn.icu/images/wx.jpg" height="400" width="300" >
+ </div>
+ 
+ 
+## 疑问
 
 如果有任何疑问或错误，欢迎在 issues 进行提问或给予修正意见
 
