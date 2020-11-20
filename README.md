@@ -9,8 +9,8 @@
 
 ## 我的微信
 
-<div align="center">
-<img src="http://www.gopher-cn.icu/images/wx.jpg" height="190" width="190" >
+<div align="left">
+<img src="http://www.gopher-cn.icu/images/wx.jpg" height="400" width="300" >
  </div>
  
  
