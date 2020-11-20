@@ -9,8 +9,11 @@
 
 ## 我的微信
 
-![image](http://www.gopher-cn.icu/images/wx.jpg)
-
+<div align="center">
+<img src="http://www.gopher-cn.icu/images/wx.jpg" height="190" width="190" >
+ </div>
+ 
+ 
 ## ？
 
 如果有任何疑问或错误，欢迎在 issues 进行提问或给予修正意见
