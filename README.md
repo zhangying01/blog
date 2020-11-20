@@ -7,9 +7,9 @@
 
 - http://gopher-cn.icu
 
-## 我的公众号
+## 我的微信
 
-![image]()
+![image](http://www.gopher-cn.icu/images/wx.jpg)
 
 ## ？
 
