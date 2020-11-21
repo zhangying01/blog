@@ -3,4 +3,8 @@ title = "一起交流技术吧！"
 slug = "contact"
 +++
 
-![wxicon](http://106.53.240.171/images/wx.jpg)
+
+<div align="left">
+<img src="http://www.gopher-cn.icu/images/wx.jpg" height="400" width="300" >
+ </div>
+ 
