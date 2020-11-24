@@ -4,7 +4,6 @@ slug = "contact"
 +++
 
 
-<div align="left">
-<img src="http://www.gopher-cn.icu/images/wx.jpg" height="400" width="300" >
- </div>
+![wx-icon](http://www.gopher-cn.icu/images/wx.jpg)
+
  
