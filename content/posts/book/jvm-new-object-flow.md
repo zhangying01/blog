@@ -52,4 +52,6 @@ Padding
 
 对象的访问定位
 =
-                                                                                                                             
+
+![pointer1](http://http://106.53.240.171/images/jvm/pointer1.png)
+![pointer2](http://http://106.53.240.171/images/jvm/pointer2.png)

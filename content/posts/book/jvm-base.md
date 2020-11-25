@@ -14,7 +14,7 @@ series = ["book", "jvm"]
 
 ### JVM运行时数据区域
 
-![jvm](http://gopher-cn.icu/images/jvm/JVM-Memory.png)
+![jvm](http://106.53.240.171/images/jvm/JVM-Memory.png)
 
 ### 说明
 
