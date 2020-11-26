@@ -22,9 +22,9 @@ disqusShortname = "yourdiscussshortname"
     avatarURL = "images/avatar1.jpg"
 
     footercontent = "码出艺术 © 2020 - 2020 | 蒙ICP备XXXXX号"
-    hideFooter = true
+    hideFooter = false
     hideCredits = false
-    hideCopyright = false
+    hideCopyright = true
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
