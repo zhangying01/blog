@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     description = "Cloud's personal website"
     keywords = "blog,developer,personal"
     info = "Code lover & Guitar lover"
-    avatarURL = "images/avatar1.jpeg"
+    avatarURL = "images/avatar1.jpg"
 
     dateFormat = "January 2, 2006"
 
