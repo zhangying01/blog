@@ -23,7 +23,7 @@ disqusShortname = "yourdiscussshortname"
 
     footercontent = "码出艺术 © 2020 - 2020 | 蒙ICP备XXXXX号"
     hideFooter = false
-    hideCredits = false
+    hideCredits = true
     hideCopyright = true
     since = 2020
 
