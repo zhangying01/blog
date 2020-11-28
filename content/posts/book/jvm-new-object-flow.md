@@ -56,5 +56,6 @@ Padding
 2. 直接指针，reference中存储的直接就是对象地址信息。
 
 ![pointer1](http://106.53.240.171/images/jvm/pointer1.png)<br>
+
 ![pointer2](http://106.53.240.171/images/jvm/pointer2.png)
 
