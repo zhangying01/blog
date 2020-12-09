@@ -4,6 +4,6 @@ slug = "contact"
 +++
 
 
-![wx-icon](http://106.53.240.171/images/wx.jpg)
+![wx-icon](https://gopher-cn.icu/images/wx.jpg)
 
  
