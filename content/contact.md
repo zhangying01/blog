@@ -6,4 +6,4 @@ slug = "contact"
 
 ![wx-icon](https://gopher-cn.icu/images/wx.jpg)
 
- 
+ 0 0 2 * * ?
