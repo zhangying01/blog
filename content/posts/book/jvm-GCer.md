@@ -20,7 +20,7 @@ series = ["book", "jvm"]
 
 可达性分析算法(Reachability Analysis)
 -
-![gcroot](http://106.53.240.171/images/jvm/gc-root.png)
+![gcroot](https://gopher-cn.icu/images/jvm/gc-root.png)
 
 这个算法的基本思路就是通过一系列称为“GC Roots”的根对象作为起始节点集，从这些节点开始，根据引用关系向下搜索，搜索过程所走的路径称为“引用链”(Reference Cain)，如果某个对象到GC Root键没有任何引用链相连，或者用图论的话来说就是从GC Root到这个对象不可达时，则证明此对象是不可能再被使用的。
 
@@ -74,7 +74,7 @@ Java堆中，新生代对常规应用进行一次垃圾回收通常可以回收7
 标记复制算法的进化-Appel式回收
 - 
 
-![Appel式回收](http://106.53.240.171/images/jvm/1606700592.jpg)
+![Appel式回收](https://gopher-cn.icu/images/jvm/1606700592.jpg)
 
 标记-整理算法（Mark Compact）
 -

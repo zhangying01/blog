@@ -55,7 +55,7 @@ Padding
 1. 句柄访问，Java堆中将可能会划分出一块内存来作为句柄池，reference中存储的就是对象的句柄地址，而句柄中包含了对象实例数据和对象类型数据各自具体的地址信息。
 2. 直接指针，reference中存储的直接就是对象地址信息。
 
-![pointer1](http://106.53.240.171/images/jvm/pointer1.png)<br>
+![pointer1](https://gopher-cn.icu/images/jvm/pointer1.png)<br>
 
-![pointer2](http://106.53.240.171/images/jvm/pointer2.png)
+![pointer2](https://gopher-cn.icu/images/jvm/pointer2.png)
 
