@@ -36,4 +36,12 @@ Parallel Scavenge也是一款新生代收集器，它同样是标记-复制算�
 
 Parallel Scavenge收集器的特点是**它的关注点与其他收集器不同**，CMS等收集器的关注点是尽可能地缩短垃圾收集时用户线程的停顿时间，而Parallel Scavenge收集器的目标是达到一个可控的吞吐量（Throughput）。
 
-> 吞吐量= \frac{运行用户代码时间}{运行用户代码时间 + 运行垃圾收集时间}
+> 吞吐量= {运行用户代码时间} / (运行用户代码时间 + 运行垃圾收集时间)
+
+Parallel Scavenge收集器提供了俩个参数用于精确控制吞吐量，分别是控制最大垃圾收集停顿时间的`-XX:MaxGCPauseMillis`参数以及直接设置吞吐量大小的`-XX:GCTimeRatio`参数。
+
+> `-XX:MaxGCPauseMillis`这个值并不是设置的越小越好，因为垃圾收集停顿时间缩短是以牺牲吞吐量和新生代空间为代价换取的！
+
+Serial Old收集器
+-
+Serial Old是Serial收集器的老年代版本，它同样是一个单线程收集器，使用标记-整理算法。这个收集器的主要意义
