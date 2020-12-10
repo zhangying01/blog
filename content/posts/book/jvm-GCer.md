@@ -2,7 +2,7 @@
 
 date = "2020-11-26"
 
-title = "《深入理解JVM》——垃圾收集器理论"
+title = "《深入理解JVM》——03.垃圾收集器理论"
 
 description = "深入理解Java虚拟机第三版"
 

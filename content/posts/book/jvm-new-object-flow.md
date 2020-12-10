@@ -2,7 +2,7 @@
 
 date = "2020-11-17"
 
-title = "《深入理解JVM》——创建对象过程"
+title = "《深入理解JVM》——02.创建对象过程"
 
 description = "深入理解Java虚拟机第三版"
 
