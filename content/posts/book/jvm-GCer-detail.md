@@ -78,7 +78,7 @@ CMS(Concurrent Mark Sweep)收集器是一种**以获取最短停顿时间为目�
 
 为说明，特将书中的收集器运行图画出便于理解。
 
-![CMS垃圾收集示意图](https://gopher-cn.icu/images/jvm/HotSpot-2.png)
+![CMS收集器示意图](https://gopher-cn.icu/images/jvm/HotSpot-2.png)
 
 
 
