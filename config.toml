@@ -97,9 +97,9 @@ disqusShortname = "yourdiscussshortname"
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "文章"
+            name = "JVM"
             weight = 1
-            url = "posts/"
+            url = "jvm/"
 
             [[languages.en.menu.main]]
             name = "Go语言"
@@ -116,7 +116,7 @@ disqusShortname = "yourdiscussshortname"
             # weight = 4
             # url = "java/"
 
-            [[languages.en.menu.main]]
-            name = "联系我"
-            weight = 4
-            url = "contact/"
+            # [[languages.en.menu.main]]
+            # name = "联系我"
+            # weight = 4
+            # url = "contact/"
