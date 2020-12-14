@@ -87,7 +87,7 @@ CMS(Concurrent Mark Sweep)收集器是一种**以获取最短停顿时间为目�
 
 由于CMS是一种基于“标记-清除”的算法实现的，所以在垃圾收集完成之后会产生大量的空间碎片，空间碎片太多时，会影响对大对象的内存分配，而不得已提前触发一次Full GC。为了解决这个问题，CMS提供了一个-XX:+UseCMS-CompactAtFullCollection开关参数，用于在CMS收集器不得不进行Full GC时开启内存碎片的合并整理过程。
 
-**Garbage First 收集器(G1,)**
+**Garbage First 收集器(G1)**
 -
 Garbage First(简称G1)收集器是垃圾收集器技术发展历史上的里程碑式的成果。**它开创了收集器面向局部收集的设计思路和基于Region的内存布局形式**，JDK 8 Update 40之后，G1提供并发的类卸载的支持，这个版本以后的G1收集器才被Oracle官方称为“全功能的垃圾收集器”（Full-Featured Garbage Collector）
 

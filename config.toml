@@ -102,14 +102,14 @@ disqusShortname = "yourdiscussshortname"
             url = "posts/"
 
             [[languages.en.menu.main]]
-            name = "关于"
+            name = "Go语言"
             weight = 2
-            url = "about/"
+            url = "go/"
 
-            [[languages.en.menu.main]]
-            name = "项目"
-            weight = 3
-            url = "projects/"
+            # [[languages.en.menu.main]]
+            # name = "项目"
+            # weight = 3
+            # url = "projects/"
 
             # [[languages.en.menu.main]]
             # name = "Java"
