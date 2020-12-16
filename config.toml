@@ -98,12 +98,12 @@ disqusShortname = "yourdiscussshortname"
 
             [[languages.en.menu.main]]
             name = "JVM"
-            weight = 1
+            weight = 2
             url = "jvm/"
 
             [[languages.en.menu.main]]
             name = "Go语言"
-            weight = 2
+            weight = 1
             url = "go/"
 
             # [[languages.en.menu.main]]
