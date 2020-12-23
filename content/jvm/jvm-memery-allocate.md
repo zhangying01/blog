@@ -33,7 +33,14 @@ HotSpot虚拟机提供了`-XX:PretenureSizeThreshold`参数（只对Serial和Par
 
 虚拟机给每个对象定义了一个对象年龄（Age）计数器，存储在对象头中。对象通常在Eden区里诞生，如果经过第一次Minor GC后仍然存活，并且能被Survivor容纳的话，该对象会被移动到Survivor空间中，并且将其的年龄设置成1岁。对象在Survivor区中每熬过；一次Minor GC，年龄增加1岁，当它的年龄增加到一定程度（默认15岁），就会被晋升到老年代中。**对对象的晋升老年代的年龄阈值，可以通过参数`-XX:MaxTenuringThreshold`设置**
 
+动态对象的判定
+-
+如果在Survivor空间中相同年龄所有对象大小的总和大于Survivor空间的一半，年龄大于或等于该年龄的对象就可以直接进入老年代，无须等到`-XX:MaxTenuringThreshold`要求的年龄。
 
+空间分配担保
+-
+在发生Minor GC之前，虚拟机必须先检查老年代最大可用的连续空间是否大于新生代所有对象总空间，如果这个成立，则虚拟机会先查看`-XX:HandkePromotionFailure`参数的设置值是否允许担保失败；如果允许，那会继续检查老年代最大可用的连续空间是否大于历次晋升到老年代对象的平均大小，如果大于，将尝试进行一次Minor GC，尽管这次Minor GC是有风险的；如果小于，或者`-XX:HandlePromotionFailure`设置不允许冒险，那这时就要改为进行一次Full GC。
+                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
 
 
