@@ -25,7 +25,7 @@ jps命令(JVM Process Status Tool)
 
 输出虚拟机进程启动时的JVM参数，超级好用。
 
-![jps](https://gopher-cn.icu/images/jvm/jps-2.png)
+![jps](https://gopher-cn.icu/images/jvm/jps-2.jpg)
 
 
 jstat命令(JVM Statistics Monitoring Tool)
@@ -35,7 +35,7 @@ jstat命令(JVM Statistics Monitoring Tool)
 
 输出java堆各个区域已使用空间占总空间的百分比。E(Eden)、S0(Survivor0)、S1(Survivor1)、O(Old)、P(Permanent)、YGC(Young GC)、YGCT(Young GC Time,单位s)。后面见名思意，自行理解即可。
 
-![jps](https://gopher-cn.icu/images/jvm/jps-3.png)
+![jps](https://gopher-cn.icu/images/jvm/jps-3.jpg)
 
 
 更新中...
