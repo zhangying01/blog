@@ -59,3 +59,6 @@ Padding
 
 ![pointer2](https://gopher-cn.icu/images/jvm/pointer2.png)
 
+- [目录](directory.md)
+- 上一章：[基本概念](../jvm-1-base)
+- 下一节：[垃圾收集器理论](../jvm-3-GCer)

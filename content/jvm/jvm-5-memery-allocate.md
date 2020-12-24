@@ -40,8 +40,11 @@ HotSpot虚拟机提供了`-XX:PretenureSizeThreshold`参数（只对Serial和Par
 空间分配担保
 -
 在发生Minor GC之前，虚拟机必须先检查老年代最大可用的连续空间是否大于新生代所有对象总空间，如果这个成立，则虚拟机会先查看`-XX:HandkePromotionFailure`参数的设置值是否允许担保失败；如果允许，那会继续检查老年代最大可用的连续空间是否大于历次晋升到老年代对象的平均大小，如果大于，将尝试进行一次Minor GC，尽管这次Minor GC是有风险的；如果小于，或者`-XX:HandlePromotionFailure`设置不允许冒险，那这时就要改为进行一次Full GC。
-                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
+
+- [目录](directory.md)
+- 上一章：[各类垃圾收集器分析](../jvm-4-GCer-detail)
+- 下一节：[JVM性能监控及故障处理命令](../jvm-6-tool)
 
 
 
