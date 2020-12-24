@@ -41,7 +41,7 @@ jstat命令(JVM Statistics Monitoring Tool)
 更新中...
 
 
-- [目录](directory.md)
+- [目录](../)
 - 上一章：[JVM内存分配](../jvm-5-memery-allocate)
 - 下一节：[JVM性能监控及故障处理命令](../jvm-6-tool)
 

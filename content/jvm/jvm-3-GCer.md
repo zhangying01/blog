@@ -106,7 +106,7 @@ HotSpot算法实现细节
 
 例如CMS是基于增量更新来做并发标记的，G1、Shenandoah则是用原始快照来实现的。
 
-- [目录](directory.md)
+- [目录](../)
 - 上一章：[创建对象过程](../jvm-2-new-object-flow)
 - 下一节：[各类垃圾收集器分析](../jvm-4-GCer-detail)
 
