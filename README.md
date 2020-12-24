@@ -5,7 +5,7 @@
 3. 写文章
 ## 我的技术博客
 
-- http://gopher-cn.icu
+- https://gopher-cn.icu
 
 ## 我的微信
 
