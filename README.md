@@ -10,7 +10,7 @@
 ## 我的微信
 
 <div align="left">
-<img src="http://www.gopher-cn.icu/images/wx.jpg" height="400" width="300" >
+<img src="https://www.gopher-cn.icu/images/wx.jpg" height="400" width="300" >
  </div>
  
  
