@@ -303,7 +303,12 @@ RuntimeVisibleAnnotations:
 
 类索引、父类索引与接口索引集合
 -
-![](../../static/images/jvm/class-struct-1.png)
+![](https://gopher-cn.icu/images/jvm/class-struct-1.png)
+
+
+
+
+
 
 下面此说明十分重要，这就完全说明java可以在运行中改变一些类的行为，实现语言使用者的定制化服务。
 
