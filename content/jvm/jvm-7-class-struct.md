@@ -306,6 +306,7 @@ RuntimeVisibleAnnotations:
 ![类索引、父类索引与接口索引集合](https://gopher-cn.icu/images/jvm/class-struct-1.png)
 
 
+Class文件是Java虚拟机执行引擎的数据入口，也是Java技术体系的基础支柱之一。 
 
 下面此说明十分重要，这就完全说明java可以在运行中改变一些类的行为，实现语言使用者的定制化服务。
 
@@ -318,7 +319,7 @@ RuntimeVisibleAnnotations:
 
 - [目录](../)
 - 上一章：[JVM性能监控及故障处理命令](../jvm-6-tool)
-- 下一节：[JVM性能监控及故障处理命令](../jvm-8-java-byte)
+- 下一节：[JVM性能监控及故障处理命令](../jvm-8-jvm-run)
 
 
 
