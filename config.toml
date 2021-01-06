@@ -121,7 +121,7 @@ disqusShortname = "yourdiscussshortname"
             # weight = 4
             # url = "java/"
 
-            # [[languages.en.menu.main]]
-            # name = "联系我"
-            # weight = 4
-            # url = "contact/"
+            [[languages.en.menu.main]]
+            name = "关于我"
+            weight = 4
+            url = "/about/"
