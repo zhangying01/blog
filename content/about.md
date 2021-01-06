@@ -1,5 +1,5 @@
 +++
-title = "关于人生"
+title = "关于我"
 slug = "about"
 +++
 
@@ -7,6 +7,10 @@ slug = "about"
 ---
 Welcome!
 
-I'm a software engineer(屌丝)
+- 学习golang
+- 代码美观至上
+- 有点文艺的流氓
+- 喜欢吉他
 
-浮生若梦，为欢几何。
+
+浮生若梦，为欢几何~
