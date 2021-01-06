@@ -3,7 +3,8 @@ title = "云的博客"
 
 theme = "hugo-coder"
 
-languageCode = "zh"
+# languageCode = "zh"
+languageCode = "zh-CN"
 defaultContentLanguage = "en"
 
 paginate = 20
@@ -90,38 +91,71 @@ disqusShortname = "yourdiscussshortname"
     weight = 3
     url = "https://twitter.com/yunteng95"
 
-[languages]
-    [languages.en]
-        languageName = "English"
 
-        [languages.en.menu]
-
-            [[languages.en.menu.main]]
+[menu]
+   [[menu.main]]
             name = "JVM"
             weight = 1
             url = "jvm/"
 
-            [[languages.en.menu.main]]
+            [[menu.main]]
             name = "Go语言"
             weight = 2
             url = "go/"
 
-            [[languages.en.menu.main]]
+            [[menu.main]]
             name = "生活"
             weight = 3
             url = "life/"
             
-            # [[languages.en.menu.main]]
+            # [[menu.main]]
             # name = "项目"
             # weight = 3
             # url = "projects/"
 
-            # [[languages.en.menu.main]]
+            # [[menu.main]]
             # name = "Java"
             # weight = 4
             # url = "java/"
 
-            [[languages.en.menu.main]]
+            [[menu.main]]
             name = "关于我"
             weight = 4
             url = "/about/"
+
+
+# [languages]
+#     [languages.en]
+#         languageName = "English"
+
+#         [menu]
+
+#             [[menu.main]]
+#             name = "JVM"
+#             weight = 1
+#             url = "jvm/"
+
+#             [[menu.main]]
+#             name = "Go语言"
+#             weight = 2
+#             url = "go/"
+
+#             [[menu.main]]
+#             name = "生活"
+#             weight = 3
+#             url = "life/"
+            
+#             # [[menu.main]]
+#             # name = "项目"
+#             # weight = 3
+#             # url = "projects/"
+
+#             # [[menu.main]]
+#             # name = "Java"
+#             # weight = 4
+#             # url = "java/"
+
+#             [[menu.main]]
+#             name = "关于我"
+#             weight = 4
+#             url = "/about/"
