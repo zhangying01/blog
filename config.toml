@@ -95,68 +95,31 @@ disqusShortname = "yourdiscussshortname"
 
 [menu]
    [[menu.main]]
-            name = "JVM"
-            weight = 1
-            url = "jvm/"
+        name = "JVM"
+        weight = 1
+        url = "jvm/"
 
-            [[menu.main]]
-            name = "Go语言"
-            weight = 2
-            url = "go/"
+        [[menu.main]]
+        name = "Go语言"
+        weight = 2
+        url = "go/"
 
-            [[menu.main]]
-            name = "生活"
-            weight = 3
-            url = "life/"
+        [[menu.main]]
+        name = "生活"
+        weight = 3
+        url = "life/"
             
-            # [[menu.main]]
-            # name = "项目"
-            # weight = 3
-            # url = "projects/"
+        # [[menu.main]]
+        # name = "项目"
+        # weight = 3
+        # url = "projects/"
 
-            # [[menu.main]]
-            # name = "Java"
-            # weight = 4
-            # url = "java/"
+        # [[menu.main]]
+        # name = "Java"
+        # weight = 4
+        # url = "java/"
 
-            [[menu.main]]
-            name = "关于我"
-            weight = 4
-            url = "/about/"
-
-
-# [languages]
-#     [languages.en]
-#         languageName = "English"
-
-#         [menu]
-
-#             [[menu.main]]
-#             name = "JVM"
-#             weight = 1
-#             url = "jvm/"
-
-#             [[menu.main]]
-#             name = "Go语言"
-#             weight = 2
-#             url = "go/"
-
-#             [[menu.main]]
-#             name = "生活"
-#             weight = 3
-#             url = "life/"
-            
-#             # [[menu.main]]
-#             # name = "项目"
-#             # weight = 3
-#             # url = "projects/"
-
-#             # [[menu.main]]
-#             # name = "Java"
-#             # weight = 4
-#             # url = "java/"
-
-#             [[menu.main]]
-#             name = "关于我"
-#             weight = 4
-#             url = "/about/"
+        [[menu.main]]
+        name = "关于我"
+        weight = 4
+        url = "/about/"
