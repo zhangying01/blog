@@ -62,7 +62,6 @@ disqusShortname = "yourdiscussshortname"
 [params.utterances]
     repo = "yunteng9345/blog" # https://utteranc.es/#heading-repository
     issueTerm = "pathname" # https://utteranc.es/#heading-mapping
-    label = "label" # https://utteranc.es/#heading-issue-label
     theme = "github-light" # https://utteranc.es/#heading-theme
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
