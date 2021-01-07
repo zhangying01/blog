@@ -15,6 +15,12 @@ pygmentsCodeFencesGuessSyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
+[params.utterances]
+  repo = "yunteng9345/blog" # https://utteranc.es/#heading-repository
+  issueTerm = "" # https://utteranc.es/#heading-mapping
+  label = "" # https://utteranc.es/#heading-issue-label
+  theme = "github-light" # https://utteranc.es/#heading-theme
+
 [params]
     author = "🌈云☁️"
     description = "Cloud's personal website"
