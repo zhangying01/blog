@@ -8,6 +8,7 @@ languageCode = "zh-CN"
 # defaultContentLanguage = "en"
 
 paginate = 20
+relativeurls = true
 pygmentsStyle = "b2"
 pygmentsCodeFences =     true
 pygmentsCodeFencesGuessSyntax = true
