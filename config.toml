@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://gopher-cn.icu/"
 title = "云的博客"
 
 theme = "hugo-coder"
