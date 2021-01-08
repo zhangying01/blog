@@ -58,11 +58,6 @@ disqusShortname = "yourdiscussshortname"
 
     # Custom JS
     customJS = []
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-[params.fathomAnalytics]
-    siteID = "ABCDE"
-    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-    serverURL = "gopher-cn.icu"
 
 # If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
 [params.goatCounter]
